@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FALL.Droid.AzureBlobFilePage">
+    <ContentPage.Content>
+        <StackLayout Padding="50,50">
+            <Label TextColor="#64b1ff" FontSize = "25" Text="Reading file from Azure Blob Storage..." />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

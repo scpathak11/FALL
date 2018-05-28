@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FALL.Droid.PlainTextPage">
+    <ContentPage.Content>
+        <StackLayout Padding="5,10">
+            <Label TextColor="#64b1ff" FontSize = "25" Text="Enter Text..." x:Name="lblTitle" />
+            <Editor Completed="Editor_Completed" FontSize="Large" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" HeightRequest="50" x:Name="TextToRead"/>
+            <Button Text="Play" Clicked="PlayButton_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

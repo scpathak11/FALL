@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FALL"
+             x:Class="FALL.MainPage" Title="FALL - For All to Listen Loud">
+
+    <StackLayout Padding="75,10">
+        <!--<Label TextColor="#77d065" FontSize = "25" Text="FALL - For All to Listen Loud" />-->
+        <Button BackgroundColor="#64b1ff" Text="Plain Text" Clicked="PlainText_Clicked" />
+        <Button BackgroundColor="#64b1ff" Text="Local File" Clicked="LocalFile_Clicked" />
+        <Button BackgroundColor="#64b1ff" Text="Azure Blob" Clicked="AzureBlobFilePage_Clicked" />
+    </StackLayout>
+
+</ContentPage>
